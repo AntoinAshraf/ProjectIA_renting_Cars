@@ -11,7 +11,7 @@ namespace ProjectIA_renting_Cars.Models
         public string Car_Model { get; set; }
         public string Car_Name { get; set; }
         public bool Is_Available { get; set; }
-        public int Car_Color { get; set; }
+        public string Car_Color { get; set; }
         public IEnumerable<Byte> Car_Photo { get; set; }
         public category Category { get; set; }
         public User Rented_To { get; set; }

@@ -197,8 +197,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -225,6 +227,10 @@
     <Compile Include="Migrations\201803311222440_CreateIA_CarRentProject5.cs" />
     <Compile Include="Migrations\201803311222440_CreateIA_CarRentProject5.Designer.cs">
       <DependentUpon>201803311222440_CreateIA_CarRentProject5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804102030162_CreateIA_CarRentProject6.cs" />
+    <Compile Include="Migrations\201804102030162_CreateIA_CarRentProject6.Designer.cs">
+      <DependentUpon>201804102030162_CreateIA_CarRentProject6.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -298,9 +304,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="Views\Car\EditCar.cshtml" />
+    <Content Include="Views\Car\RegesterCar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -331,6 +340,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803311222440_CreateIA_CarRentProject5.resx">
       <DependentUpon>201803311222440_CreateIA_CarRentProject5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804102030162_CreateIA_CarRentProject6.resx">
+      <DependentUpon>201804102030162_CreateIA_CarRentProject6.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

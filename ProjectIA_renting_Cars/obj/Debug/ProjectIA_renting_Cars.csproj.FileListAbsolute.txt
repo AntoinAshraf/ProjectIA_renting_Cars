@@ -87,3 +87,4 @@ C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug
 C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject3.resources
 C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject4.resources
 C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject5.resources
+C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject6.resources
