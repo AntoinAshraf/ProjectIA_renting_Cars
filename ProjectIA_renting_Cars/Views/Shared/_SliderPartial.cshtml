@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<div class="container">
+    <ul class="bxslider">
+        <li><img width="1124" height="600" src="https://aferfi.hu/images/Cikk_kepek/LaFerrari_Spider_02.jpg" alt="Alternate Text" /> </li>
+        <li><img width="1124" height="600" src="https://tekgenius.pt/wp-content/uploads/2017/12/mclaren_senna_-_6.jpg" alt="Alternate Text" /> </li>
+        <li><img width="1124" height="600" src="https://i0.wp.com/saudishift.com/wp-content/uploads/2018/02/2-3.jpg?fit=1600%2C1067&ssl=1" alt="Alternate Text" /> </li>
+    </ul>
+</div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+<script type="text/javascript">
+      $(document).ready(function () {
+          $('.bxslider').bxSlider({
+              auto: true,
+              autoControls: true,
+              stopAutoOnClick: true,
+              pager: true,
+              autoControlsCombine: true,
+              keyboardEnabled: true
+          });
+      });
+</script>
+</body>
+</html>
