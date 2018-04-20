@@ -20,7 +20,6 @@ namespace ProjectIA_renting_Cars.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<User_Type> User_Types { get; set; }
 
         public DbSet<category> Categories { get; set; }
 
