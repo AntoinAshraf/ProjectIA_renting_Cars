@@ -270,3 +270,4 @@ D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj
 D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.dll
 D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.pdb
 C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject7.resources
+C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject8.resources

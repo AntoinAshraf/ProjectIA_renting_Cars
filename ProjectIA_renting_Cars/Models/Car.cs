@@ -24,6 +24,10 @@ namespace ProjectIA_renting_Cars.Models
         [Display(Name = "Car Photo")]
         public byte[] Car_Photo { get; set; }
 
+        [Required(ErrorMessage = "The Car must have a Price")]
+        [Display(Name = "Car Price")]
+        public float Price { get; set; }
+
         [Required(ErrorMessage = "The Car must be in a category")]
         [Display(Name = "Car Category")]
         public category Category { get; set; }
