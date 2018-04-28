@@ -31,7 +31,12 @@ namespace ProjectIA_renting_Cars.Models
         [Required(ErrorMessage = "The Car must be in a category")]
         [Display(Name = "Car Category")]
         public category Category { get; set; }
-        public User Rented_To { get; set; }
+
+        public int CategoryID { get; set; }
+
+        public User User { get; set; }
+        public int? UserId { get; set; }
+
         public DateTime? Rented_From { get; set; }
         public DateTime? Rented_Till { get; set; }
     }

@@ -8,6 +8,6 @@ namespace ProjectIA_renting_Cars.Models
     public class category
     {
         public int Id { get; set; }
-        public string category_Name { get; set; }
+        public string Category_Name { get; set; }
     }
 }

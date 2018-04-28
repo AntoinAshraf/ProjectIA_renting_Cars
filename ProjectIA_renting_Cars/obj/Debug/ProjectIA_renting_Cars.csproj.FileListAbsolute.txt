@@ -273,3 +273,9 @@ C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug
 C:\Users\tonya\Downloads\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject8.resources
 E:\ASP.NET projects\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject7.resources
 E:\ASP.NET projects\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject8.resources
+D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject7.resources
+D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.CreateIA_CarRentProject8.resources
+D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.fixDatabase.resources
+D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.fixDatabase1.resources
+D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.fixDatabase2.resources
+D:\Computer Science\IA\projrct\ProjectIA_renting_Cars\ProjectIA_renting_Cars\obj\Debug\ProjectIA_renting_Cars.Migrations.fixDatabase3.resources

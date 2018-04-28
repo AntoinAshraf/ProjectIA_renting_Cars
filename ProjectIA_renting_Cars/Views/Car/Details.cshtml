@@ -1,0 +1,76 @@
+﻿@model ProjectIA_renting_Cars.Models.Car
+<!--anty zbaty l model bta3 al car zay m 2oltlk wala lesa l2 lsa 
+    feen l page ally btegy mnha ll details page eh paagaeh  al snya-->
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Car_Model)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Car_Model)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Car_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Car_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Car_Color)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Car_Color)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoryID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rented_From)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rented_From)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rented_Till)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rented_Till)
+        </dd>
+
+    </dl>
+</div>
+<p>
+@*    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |*@
+    @Html.ActionLink("Back to List", "CarSearchPage")
+</p>
