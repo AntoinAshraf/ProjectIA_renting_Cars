@@ -20,7 +20,7 @@ namespace ProjectIA_renting_Cars.Models
 
         public string Car_Color { get; set; }
 
-        [Required(ErrorMessage = "The Car must have a photo")]
+       // [Required(ErrorMessage = "The Car must have a photo")]
         [Display(Name = "Car Photo")]
         public byte[] Car_Photo { get; set; }
 

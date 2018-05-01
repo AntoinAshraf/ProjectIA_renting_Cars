@@ -1,0 +1,44 @@
+﻿@model ProjectIA_renting_Cars.Models.CarCateogryViewModel
+@{
+    ViewBag.Title = "EditCar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>EditCar</h2>
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(carCateogry => carCateogry.car.Id)
+<div class="form-group">
+    @Html.LabelFor(carCateogry => carCateogry.car.Car_Name)
+    @Html.TextBoxFor(carCateogry => carCateogry.car.Car_Name, new { @class = "form-control" })
+    @Html.ValidationMessageFor(carCateogry => carCateogry.car.Car_Name)
+</div>
+
+
+<div class="form-group">
+    @Html.LabelFor(carCateogry => carCateogry.car.Car_Model)
+    @Html.TextBoxFor(carCateogry => carCateogry.car.Car_Model, new { @class = "form-control" })
+    @Html.ValidationMessageFor(carCateogry => carCateogry.car.Car_Model)
+</div>
+
+<div class="form-group">
+    @Html.LabelFor(carCateogry => carCateogry.car.Car_Color)
+    @Html.TextBoxFor(carCateogry => carCateogry.car.Car_Color, new { @class = "form-control" })
+</div>
+
+<div class="form-group">
+    @Html.LabelFor(carCateogry => carCateogry.car.Price)
+    @Html.TextBoxFor(carCateogry => carCateogry.car.Price, new { @class = "form-control", type = "number" })
+    @Html.ValidationMessageFor(carCateogry => carCateogry.car.Price)
+</div>
+
+<div class="form-group">
+    @Html.LabelFor(carCateogry => carCateogry.car.Category)
+    @Html.DropDownListFor(carCateogry => carCateogry.car.Category.Id, new SelectList(Model.Category, "Id", "category_Name"), "Select Category", new { @class = "form-control", type = "number" })
+    @Html.ValidationMessageFor(carCateogry => carCateogry.car.Category.Id)
+</div>
+
+<button type="Submit" class="btn btn-block" style="color:#000000;font-size:large">Edit</button>
+
+}
+
