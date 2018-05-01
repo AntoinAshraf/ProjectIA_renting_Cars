@@ -44,6 +44,7 @@ namespace ProjectIA_renting_Cars.Controllers
             db.SaveChanges();
             return RedirectToAction("Index","Home");
         }
+
         [HttpGet]
         public ActionResult EditCar(int id)
         {

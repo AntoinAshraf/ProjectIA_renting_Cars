@@ -7,7 +7,6 @@
 <h2>Add Car</h2>
 @using (Html.BeginForm())
 {
-
         <div class="form-group">
             @Html.LabelFor(carCateogry => carCateogry.car.Car_Name)
             @Html.TextBoxFor(carCateogry => carCateogry.car.Car_Name, new { @class = "form-control" })
